@@ -1,0 +1,20 @@
+package Day1;
+import java.util.Arrays;
+
+public class TwoSums {
+    public static int[] twoSums (int[] arr, int target){
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] == target - arr[i]) {
+                    return new int[] { i, j };
+                }
+            }
+        }
+        return new int[] {};
+    }
+    public static void main(String[] args) {
+        int[] arr = {2, 6, 7, 9};
+        int[] result = twoSums(arr, 8);
+        System.out.println(Arrays.toString(result));
+    }
+}
