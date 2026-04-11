@@ -1,4 +1,4 @@
-package Day1;
+package Array;
 
 public class FirstUniqueCharacter {
     public static int firstUniqueCharacter (String s){

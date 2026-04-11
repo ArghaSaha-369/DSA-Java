@@ -1,4 +1,4 @@
-package Day1;
+package Array;
 
 public class IsAnagram {
     public static boolean isAnagram(String s1, String s2){

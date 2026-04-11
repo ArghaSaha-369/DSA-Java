@@ -1,4 +1,4 @@
-package Day1;
+package Array;
 
 public class SecondLargestWithoutSorting {
     public static int secondLargest (int[] arr) {

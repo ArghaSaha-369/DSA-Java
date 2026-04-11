@@ -1,21 +1,24 @@
-package Day2;
+package Array;
 
 public class IsRotation {
-    public static boolean isRotation(String s1, String s2){
-        if(s1 == null || s2 == null){
+    public static boolean isRotation(int[] arr1, int[] arr2){
+        if(arr1 == null || arr2 == null){
             return false;
         }
-        if(s1.length() != s2.length()){
+        if(arr1.length != arr2.length){
             return false;
         }
-        int n = s1.length();
-        for(int i=0; i<n; i++){
-            if(s1.charAt(i) == s2.charAt(0)){
+        int n = arr1.length;
+        if(n==0){
+            return true;
+        }
+        for (int i=0; i<n; i++){
+            if(arr1[i] == arr2[0]){
                 boolean match = true;
                 for(int k=0; k<n; k++){
-                    if(s1.charAt((i+k)%n) != s2.charAt(k)){
-                        return false;
-
+                    if(arr1[(i+k)%n] != arr2[k]){
+                        match = false;
+                        break;
                     }
                 }
                 if(match){
@@ -27,6 +30,8 @@ public class IsRotation {
     }
 
     public static void main(String[] args) {
-        System.out.println(isRotation("abcd", "cdab"));
+        int[] arr1={2, 3, 4, 5};
+        int[] arr2={4, 5, 2, 3};
+        System.out.println(isRotation(arr1, arr2));
     }
 }

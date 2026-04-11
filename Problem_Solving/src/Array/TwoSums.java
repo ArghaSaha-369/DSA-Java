@@ -1,4 +1,4 @@
-package Day1;
+package Array;
 import java.util.Arrays;
 
 public class TwoSums {

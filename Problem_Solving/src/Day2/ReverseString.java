@@ -1,4 +1,4 @@
-package Day1;
+package Array;
 
 public class ReverseString {
     public static String reverseString(String str) {
