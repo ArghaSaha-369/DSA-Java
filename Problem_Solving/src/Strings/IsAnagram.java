@@ -1,4 +1,4 @@
-package Array;
+package Strings;
 
 public class IsAnagram {
     public static boolean isAnagram(String s1, String s2){

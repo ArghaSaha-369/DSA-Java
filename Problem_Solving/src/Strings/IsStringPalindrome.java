@@ -1,4 +1,4 @@
-package Day2;
+package Strings;
 
 public class IsStringPalindrome {
     public static boolean isPalindrome(String s){

@@ -1,4 +1,4 @@
-package Array;
+package Strings;
 
 public class FirstUniqueCharacter {
     public static int firstUniqueCharacter (String s){

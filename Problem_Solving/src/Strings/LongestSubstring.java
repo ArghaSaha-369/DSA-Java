@@ -1,4 +1,4 @@
-package Day2;
+package Strings;
 
 public class LongestSubstring {
     public static int longestSubstring(String s){

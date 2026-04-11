@@ -1,4 +1,4 @@
-package Day2;
+package Strings;
 
 public class MostFrequentCharacter {
     public static char mostFreqChar(String s){

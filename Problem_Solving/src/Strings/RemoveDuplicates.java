@@ -1,4 +1,4 @@
-package Day2;
+package Strings;
 
 public class RemoveDuplicates {
     public static String removeDuplicates(String s){

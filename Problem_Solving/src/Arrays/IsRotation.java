@@ -1,4 +1,4 @@
-package Array;
+package Arrays;
 
 public class IsRotation {
     public static boolean isRotation(int[] arr1, int[] arr2){
