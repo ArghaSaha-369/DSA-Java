@@ -1,6 +1,6 @@
 package Arrays;
 
-public class SecondLargestWithoutSorting {
+public class SecondLargest {
     public static int secondLargest (int[] arr) {
         if (arr.length < 2) {
             throw new IllegalArgumentException("Must be Two Numbers at least");

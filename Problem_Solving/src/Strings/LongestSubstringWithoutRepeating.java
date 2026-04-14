@@ -1,6 +1,6 @@
 package Strings;
 
-public class LongestSubstring {
+public class LongestSubstringWithoutRepeating {
     public static int longestSubstring(String s){
         if(s == null || s.length() == 0){
             return 0;
